@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdict 00 — MAIN CHARACTER Haute Parfumerie</title>
+  <link rel="icon" type="image/png" href="McLogo.png">
+
+  <!-- Google Fonts: Cormorant Garamond & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+
+  <!-- Floating Oval Horizontal Dark Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="oval-navbar">
+
+      <!-- Left: Brand Logo Monogram -->
+      <a href="index.html" class="nav-brand" aria-label="Main Character Home">
+        <img src="McLogo.png" alt="Main Character Monogram" class="nav-logo">
+      </a>
+
+      <!-- Right: Navigation Pills -->
+      <div class="nav-actions">
+        <a href="product.html" class="nav-pill active">VERDICT</a>
+        <a href="house.html" class="nav-link">HOUSE</a>
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- Main Product Detail Container -->
+  <main class="product-layout">
+    <div class="product-container">
+
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html" class="breadcrumb-item">MAIN CHARACTER</a>
+        <span class="breadcrumb-separator">&gt;</span>
+        <span class="breadcrumb-item">VERDICT</span>
+        <span class="breadcrumb-separator">&gt;</span>
+        <span class="breadcrumb-current">00</span>
+      </nav>
+
+      <!-- Two-Column Product Grid -->
+      <div class="product-grid">
+
+        <!-- Left Column: Visual Gallery with Product Images -->
+        <div class="gallery-col">
+
+          <!-- Main Hero Portrait Card -->
+          <div class="main-image-card">
+            <img src="Product image/1.png" alt="Verdict 00 Flacon and Bespoke Presentation Box" class="gallery-main-img" id="galleryMainImg">
+            <div class="gallery-zoom-hint">Click image to enlarge</div>
+          </div>
+
+          <!-- Thumbnails Row from 'Product image' folder -->
+          <div class="thumbnails-row">
+            <!-- 1. Flacon with Bespoke Sky-Blue Box & Raw Botanicals -->
+            <button class="thumb-btn active" data-src="Product image/1.png" data-pos="center center"
+              aria-label="View Flacon and Presentation Box">
+              <img src="Product image/1.png" alt="Verdict Flacon and Box" class="thumb-img">
+            </button>
+
+            <!-- 2. Campaign Editorial Portrait with Model -->
+            <button class="thumb-btn" data-src="Product image/2.png" data-pos="center center"
+              aria-label="View Campaign Model Portrait">
+              <img src="Product image/2.png" alt="Verdict Campaign Model" class="thumb-img">
+            </button>
+
+            <!-- 3. Olfactory Notes Metallic Mirror Tray -->
+            <button class="thumb-btn" data-src="Product image/3.png" data-pos="center center"
+              aria-label="View Olfactory Ingredients Tray">
+              <img src="Product image/3.png" alt="Verdict Olfactory Tray" class="thumb-img">
+            </button>
+
+            <!-- 4. Haute Couture Glove Presentation -->
+            <button class="thumb-btn" data-src="Product image/4.png" data-pos="center center"
+              aria-label="View Flacon in Couture Glove">
+              <img src="Product image/4.png" alt="Verdict Flacon in Glove" class="thumb-img">
+            </button>
+
+            <!-- 5. Born in Goa Ocean Cliff -->
+            <button class="thumb-btn" data-src="Product image/5.png" data-pos="center center"
+              aria-label="View Born in Goa Ocean Cliff">
+              <img src="Product image/5.png" alt="Verdict Born in Goa" class="thumb-img">
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Product Info & Allocation Action -->
+        <div class="details-col">
+
+          <!-- Product Title & Poetic Descriptor -->
+          <header class="product-heading-block">
+            <h1 class="product-title">Verdict 00</h1>
+            <p class="product-tagline">Presence, without noise.</p>
+          </header>
+
+          <!-- Allocation Status & Specifications -->
+          <div class="product-status-block">
+            <div class="status-line">ALLOCATION OPENING SOON</div>
+            <div class="volume-line">30 ML &bull; PARFUM</div>
+          </div>
+
+          <!-- Primary CTA Button -->
+          <div class="action-block">
+            <button class="btn-claim" id="btnClaimBottle" type="button">
+              <span>CLAIM YOUR BOTTLE</span>
+            </button>
+          </div>
+
+          <!-- Collapsible Accordions -->
+          <div class="accordions-container">
+
+            <!-- Accordion 1: THE FRAGRANCE -->
+            <div class="accordion-item" id="accFragrance">
+              <button class="accordion-header" type="button" aria-expanded="false">
+                <span class="acc-title">THE FRAGRANCE</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <p>
+                  A fresh, aromatic opening gives way to warm woods and a smooth, lasting character. VERDICT brings
+                  freshness and warmth together in a fragrance designed to feel composed, distinctive and quietly
+                  confident.
+                </p>
+              </div>
+            </div>
+
+            <!-- Accordion 2: THE CHARACTER -->
+            <div class="accordion-item" id="accCharacter">
+              <button class="accordion-header" type="button" aria-expanded="false">
+                <span class="acc-title">THE CHARACTER</span>
+                <span class="acc-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <p>
+                  Cardamom introduces an aromatic edge, while cedarwood and tonka bean bring warmth and depth. Vetiveryl
+                  acetate and amber complete the profile with an earthy, smooth finish.
+                </p>
+                <p class="acc-closing">
+                  Composed for those who leave an impression without asking for attention.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- 2. Notes Architecture Section (Top, heart, base.) -->
+  <section class="notes-section" id="notesSection">
+    <div class="notes-container">
+
+      <!-- Section Header -->
+      <div class="notes-header">
+        <span class="notes-eyebrow">NOTES</span>
+        <h2 class="notes-title">Top, heart, base.</h2>
+        <p class="notes-subtitle">In the order they reach you.</p>
+      </div>
+
+      <!-- Tiers List -->
+      <div class="notes-tiers">
+
+        <!-- 01 Top Tier -->
+        <div class="note-tier-row">
+          <div class="tier-label-col">
+            <span class="tier-index">01</span>
+            <span class="tier-name">Top</span>
+          </div>
+          <div class="tier-items-grid cols-4">
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/top.png" alt="Mint Note" class="note-img">
+              </div>
+              <span class="note-code">01</span>
+              <h3 class="note-heading">Mint</h3>
+              <p class="note-phrase">Opens it sharp, fresh and clean.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/top (2).png" alt="Wild Lavender Note" class="note-img">
+              </div>
+              <span class="note-code">02</span>
+              <h3 class="note-heading">Lavender</h3>
+              <p class="note-phrase">Aromatic and serene.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/top (3).png" alt="Calabrian Bergamot Note" class="note-img">
+              </div>
+              <span class="note-code">03</span>
+              <h3 class="note-heading">Bergamot</h3>
+              <p class="note-phrase">Bright, tart and exact.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/top (4).png" alt="Green Cardamom Note" class="note-img">
+              </div>
+              <span class="note-code">04</span>
+              <h3 class="note-heading">Cardamom</h3>
+              <p class="note-phrase">Introduces an aromatic edge.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 02 Heart Tier -->
+        <div class="note-tier-row">
+          <div class="tier-label-col">
+            <span class="tier-index">02</span>
+            <span class="tier-name">Heart</span>
+          </div>
+          <div class="tier-items-grid cols-3">
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/heart.png" alt="Cinnamon Bark Note" class="note-img">
+              </div>
+              <span class="note-code">01</span>
+              <h3 class="note-heading">Cinnamon</h3>
+              <p class="note-phrase">Warmth with textured spice.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/heart (2).png" alt="Orange Blossom Note" class="note-img">
+              </div>
+              <span class="note-code">02</span>
+              <h3 class="note-heading">Orange Blossom</h3>
+              <p class="note-phrase">Solar floral clarity.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/heart (3).png" alt="Botanical Anise Note" class="note-img">
+              </div>
+              <span class="note-code">03</span>
+              <h3 class="note-heading">Anise</h3>
+              <p class="note-phrase">Pulls it green and herbal.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 03 Base Tier -->
+        <div class="note-tier-row">
+          <div class="tier-label-col">
+            <span class="tier-index">03</span>
+            <span class="tier-name">Base</span>
+          </div>
+          <div class="tier-items-grid cols-5">
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/base.png" alt="Tahitian Vanilla Note" class="note-img">
+              </div>
+              <span class="note-code">01</span>
+              <h3 class="note-heading">Vanilla</h3>
+              <p class="note-phrase">Smooth, dark richness.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/base (2).png" alt="Tonka Bean Note" class="note-img">
+              </div>
+              <span class="note-code">02</span>
+              <h3 class="note-heading">Tonka Bean</h3>
+              <p class="note-phrase">Warmth and depth.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/base (3).png" alt="Golden Amber Note" class="note-img">
+              </div>
+              <span class="note-code">03</span>
+              <h3 class="note-heading">Amber</h3>
+              <p class="note-phrase">Resinous, lasting glow.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/base (4).png" alt="Sandalwood Note" class="note-img">
+              </div>
+              <span class="note-code">04</span>
+              <h3 class="note-heading">Sandalwood</h3>
+              <p class="note-phrase">Velvet, creamy timber.</p>
+            </div>
+
+            <div class="note-card-item">
+              <div class="note-visual">
+                <img src="notes images/base (5).png" alt="Atlas Cedarwood Note" class="note-img">
+              </div>
+              <span class="note-code">05</span>
+              <h3 class="note-heading">Cedarwood</h3>
+              <p class="note-phrase">An earthy, smooth finish.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Character Minimal Luxury Footer -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-container">
+      
+      <div class="footer-main">
+        <!-- Logo & Brand -->
+        <a href="index.html" class="footer-logo-link" aria-label="Main Character Home">
+          <img src="McLogo.png" alt="Main Character Logo" class="footer-logo">
+          <span class="footer-brand-title">MAIN CHARACTER</span>
+        </a>
+
+        <!-- Footer Navigation: VERDICT, HOUSE, and @maincharacter -->
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="product.html" class="footer-nav-btn">VERDICT</a>
+          <a href="house.html" class="footer-nav-btn">HOUSE</a>
+          <a href="https://instagram.com/maincharacter.goa" target="_blank" rel="noopener noreferrer" class="footer-nav-btn footer-instagram-link" aria-label="Main Character on Instagram">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+            <span>@maincharacter</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="copyright-text">&copy; 2026 MAIN CHARACTER. ALL RIGHTS RESERVED.</span>
+        <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+          <span>TOP</span>
+          <svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M8 13V3M8 3L3.5 7.5M8 3L12.5 7.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Sticky Bottom Bar (matching reference screenshot) -->
+  <aside class="sticky-claim-bar" id="stickyClaimBar">
+    <div class="sticky-bar-inner">
+      <div class="sticky-left">
+        <span class="sticky-title">Verdict 00</span>
+        <span class="sticky-tagline">Presence, without noise.</span>
+      </div>
+      <div class="sticky-right">
+        <span class="sticky-status">ALLOCATION OPENING SOON</span>
+        <button class="btn-claim-sticky" id="btnClaimSticky" type="button">CLAIM YOUR BOTTLE</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Fullscreen Image Lightbox Modal -->
+  <div class="lightbox-backdrop" id="lightboxModal" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Close fullscreen view">&times;</button>
+    <img src="Product image/1.png" alt="Verdict Fullscreen View" class="lightbox-img" id="lightboxImg">
+  </div>
+
+  <!-- Reservation Confirmation Modal -->
+  <div class="modal-backdrop" id="claimModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-content">
+        <img src="McLogo.png" alt="Main Character" class="modal-logo">
+        <span class="modal-eyebrow">EXCLUSIVE ALLOCATION ALLOTMENT</span>
+        <h3 class="modal-title">VERDICT 00 RESERVED</h3>
+        <p class="modal-desc">
+          Your allocation interest for Edition 00 (30 ML Parfum) has been recorded. You will receive private early
+          access 24 hours prior to global release.
+        </p>
+        <div class="allocation-badge">
+          <span class="badge-tag">ALLOCATION NO.</span>
+          <span class="badge-num" id="allocationNumber">MC-00-#042</span>
+        </div>
+        <button class="btn-modal-dismiss" id="modalDismissBtn" type="button">CLOSE WINDOW</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="product.js"></script>
+</body>
+
+</html>
